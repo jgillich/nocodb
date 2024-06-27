@@ -129,6 +129,7 @@ export default class S3 implements IStorageAdapterV2 {
 
     const s3Options = {
       region: this.input.region,
+      endpoint: this.input.endpoint,
       credentials: {
         accessKeyId: this.input.access_key,
         secretAccessKey: this.input.access_secret,

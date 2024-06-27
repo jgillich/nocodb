@@ -27,6 +27,13 @@ const config: XcPluginConfig = {
         required: true,
       },
       {
+        key: 'endpoint',
+        label: 'Endpoint',
+        placeholder: 'Endpoint',
+        type: XcType.SingleLineText,
+        required: false,
+      },
+      {
         key: 'access_key',
         label: 'Access Key',
         placeholder: 'Access Key',
